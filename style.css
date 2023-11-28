@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(to bottom, #5c3bff, #774aff);/*cor de fundo*/
+  height: 100vh;/* ajustará automaticamente à altura completa da janela*/
+  /*azul: Tranquilidade, Serenidade e Harmonia*/
+}
+
+.posição {/*nome da clase criada no html*/
+    display: flex;/*é usada para criar um contêiner flexível*/
+    flex-direction: column;/*elementos serão organizados em uma coluna, de cima para baixo dentro do contêiner*/
+    align-items: center;/*elementos serão centralizados verticalmente dentro do contêiner*/
+}
+
+.texto{
+    font-family: Arial;/*define a fonte*/
+    font-size: 25px;/* define tamanho da fonte*/
+    text-align: center;/* centraliza o texto horizontalmente*/
+    line-height: 50px;/* centraliza o texto verticalmente*/
+}
+
+.nome {
+    width: 300px;/*largura da forma a ser criada*/
+    height: 50px;/*altura da forma a ser criada*/
+    background-color: #ffff; 
+    border: 3px solid black;/* espesura da borda*/
+    border-radius: 50px;  /*borda com cantos aredondados*/
+}
+
+.foto {
+    margin-top: 30px;/*distancia do topo para o elemento que esta acima*/
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+    .foto img{
+        width: 100%;/*quanto do elemento sera ocupado pela imagem na horizontal*/
+        height: 100%;/*quanto do elemento sera ocupado pela imagem na vertical*/
+        border-radius: 200px;
+    }
+
+.idade {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffff;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+   
+
+.cidade {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffff;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.usuario {
+    margin-top: 30px;
+    width: 250px;
+    height: 200px;
+    background-color: #ffff;
+    border: 3px solid black;
+    border-radius: 20px;
+   }
+    .texto2{
+        margin: 5px;/*margen de distanciamento do texto para o elemento*/
+        font-size: 18px;
+        font-family: Times New Roman;
+        text-align: justify;/*alinhamento do texto justificado*/
+        
+    }
+       
